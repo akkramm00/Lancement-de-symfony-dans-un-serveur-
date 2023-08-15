@@ -17,6 +17,17 @@
     Le port par defaut est gégéralement 8000.
 
     -t public/ précise à symfony que le point d'entrée de votre application se trouve dans le dossier "public/" implicitement, c'est le fichier "index.php"
- qui sera sollicité. il est indispensable de préciser ce paramètre pour lancer une application Symfony via le serveur inyterne de PHP.    
+ qui sera sollicité. il est indispensable de préciser ce paramètre pour lancer une application Symfony via le serveur interne de PHP.    
+
+    <h2>Serveur symfony CLI</h2>
+     <p>
+       Grâce à Symfony CLI, vous avez un serveur intégré ainsi que d'autres outils. Pour lancer le serveur , il suffit d'une ligne de commande :
+
+       symfony server:start -d
+
+       L'option -d (pour deamon) lance le serveur en arrière-plan
+
+       Dans tous les cas , en vous rendant sur l'adresse http:/127.0.0.1:8000, vous devriez obtenir cette page , félicitations!
+     </p>
   </body>
 </html>
